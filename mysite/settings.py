@@ -75,17 +75,17 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
     # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'HOST': '/var/run/mysqld/mysqld.sock',
-    #     'NAME': 'c69611_dof_oliabric_ru',
-    #     'USER': 'c69611_dof_oliabric_ru',
-    #     'PASSWORD': 'ToPniPirwiyol71',
-    # },
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '/var/run/mysqld/mysqld.sock',
+        'NAME': 'c69611_dof_oliabric_ru',
+        'USER': 'c69611_dof_oliabric_ru',
+        'PASSWORD': 'ToPniPirwiyol71',
+    },
 }
 
 
